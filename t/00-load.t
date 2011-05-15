@@ -2,6 +2,6 @@
 
 use Test::More tests => 1;
 
-BEGIN { use_ok '' }
+BEGIN { use_ok 'Task::BeLike::RSRCHBOY' }
 
-diag("Testing Task-BeLike-RSRCHBOY $Dist::Zilla::Plugin::lib/Task/BeLike/RSRCHBOY.pm::VERSION, Perl $], $^X");
+diag("Testing Task-BeLike-RSRCHBOY $Task::BeLike::RSRCHBOY::VERSION, Perl $], $^X");
