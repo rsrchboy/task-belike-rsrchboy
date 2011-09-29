@@ -6,14 +6,15 @@ use 5.12.1;
 use warnings;
 
 
-
-=pkgroup CPAN Tools
+=pkgroup CPAN/GitHub Tools
 
 =pkg perl 5.12.1
 
 =pkg App::cpanminus
 
 =pkg App::cpanoutdated
+
+=pkg App::gh
 
 =pkg Dist::Zilla 4
 
@@ -47,24 +48,53 @@ use warnings;
 
 =pkg Perl::Tidy
 
+=pkg Perl::Critic
 
 
-=pkgroup Moose bits
+=pkgroup Mooseish bits
 
-=pkg Moose 1.15
+=pkg Any::Moose
+
+=pkg Class::Method::Modifiers
+
+=pkg Role::Basic
+
+=pkg Moose 2
 
 =pkg MooseX::AlwaysCoerce
 
 =pkg MooseX::App::Cmd
 
-=pkg MooseX::AttributeShortcuts
+=pkg MooseX::AttributeShortcuts 0.005
 
-=pkg MooseX::AutoDestruct
+=pkg MooseX::AutoDestruct 0.007
 
 =pkg MooseX::Types
 
 =pkg MooseX::Types::Path::Class
 
+=pkg MooseX::Types::Perl
+
+
+=pkgroup Web
+
+=pkg Catalyst::Runtime 5.9
+
+=pkg Catalyst::Devel
+
+=pkg Catalyst::Controller::REST
+
+=pkg Catalyst::Model::DBIC::Schema
+
+=pkg Catalyst::View::TT
+
+=pkg Task::Catalyst
+
+=pkg Dancer
+
+=pkg Plack::Middleware::Debug
+
+=pkg Plack::Middleware::SetAccept
 
 
 =pkgroup Other Libraries I Use
@@ -92,6 +122,8 @@ use warnings;
 =pkg Term::ReadLine::Gnu
 
 =pkg Try::Tiny
+
+=pkg V
 
 
 
