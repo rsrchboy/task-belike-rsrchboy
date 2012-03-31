@@ -2,13 +2,11 @@ package Task::BeLike::RSRCHBOY;
 
 # ABSTRACT: Modules RSRCHBOY uses!
 
-use 5.12.1;
-use warnings;
+!!42;
 
+__END__
 
 =pkgroup CPAN/GitHub Tools
-
-=pkg perl 5.12.1
 
 =pkg App::cpanminus
 
@@ -20,6 +18,7 @@ use warnings;
 
 =pkg Dist::Zilla::PluginBundle::RSRCHBOY
 
+=pkg Git::CPAN::Patch
 
 
 =pkgroup DB bits
@@ -30,14 +29,18 @@ use warnings;
 
 =pkg DBIx::Class::Schema::Loader 0.07010
 
+
+=pkgroup Date/Time handling
+
+=pkg DateTime
+
+=pkg DateTime::Format::DB2
+
 =pkg DateTime::Format::DBI
 
 =pkg DateTime::Format::MySQL
 
 =pkg DateTime::Format::Pg
-
-=pkg DateTime::Format::DB2
-
 
 
 =pkgroup Hygiene
@@ -51,7 +54,7 @@ use warnings;
 =pkg Perl::Critic
 
 
-=pkgroup Mooseish bits
+=pkgroup Class bits
 
 =pkg Any::Moose
 
@@ -59,51 +62,26 @@ use warnings;
 
 =pkg Role::Basic
 
-=pkg Moose 2
-
-=pkg MooseX::AlwaysCoerce
+=pkg Reindeer 0.008
 
 =pkg MooseX::App::Cmd
 
-=pkg MooseX::AttributeShortcuts 0.005
-
 =pkg MooseX::AutoDestruct 0.007
 
-=pkg MooseX::Types
-
-=pkg MooseX::Types::Path::Class
+=pkg MooseX::TrackDirty::Attributes 2.000 native traits support
 
 =pkg MooseX::Types::Perl
 
 
-=pkgroup Web
-
-=pkg Catalyst::Runtime 5.9
-
-=pkg Catalyst::Devel
-
-=pkg Catalyst::Controller::REST
-
-=pkg Catalyst::Model::DBIC::Schema
-
-=pkg Catalyst::View::TT
-
-=pkg Task::Catalyst
-
-=pkg Dancer
-
-=pkg Plack::Middleware::Debug
-
-=pkg Plack::Middleware::SetAccept
-
-
 =pkgroup Other Libraries I Use
 
-=pkg opts 0.05 for simple one-off scripts
+=pkg aliased
 
-=pkg Config::GitLike
+=pkg opts 0.05
 
-=pkg DateTime
+=pkg Capture::Tiny
+
+=pkg Config::JFDI
 
 =pkg File::chdir
 
@@ -111,36 +89,25 @@ use warnings;
 
 =pkg Path::Class
 
-=pkg Plack
-
 =pkg Readonly
+
+=pkg Readonly::XS
+
+=pkg Smart::Args
+
+=pkg Smart::Comments
 
 =pkg Sub::Install
 
-=pkg Starman
-
-=pkg Term::ReadLine::Gnu
+=pkg Sub::Exporter
 
 =pkg Try::Tiny
 
 =pkg V
 
 
+=head1 SEE ALSO
 
-=pkgroup XS-speedups
-
-Optional modules that make things faster when a compiler is available.
-
-=pkg Readonly::XS
-
-
-
-=pkgroup People I wanna belike!
-
-=pkg Task::BeLike::RJBS 20110324.000
+L<Task::BeLike::RSRCHBOY::Web>
 
 =cut
-
-1;
-
-__END__
