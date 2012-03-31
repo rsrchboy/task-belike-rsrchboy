@@ -1,5 +1,8 @@
-Revision history for {{$dist->name}}
+Revision history for Task-BeLike-RSRCHBOY
 
 {{$NEXT}}
+
+0.002     2012-03-30 20:45:53 America/Los_Angeles
+- Split web deps out
 
 0.001     2011-09-29 11:23:39 America/Los_Angeles
