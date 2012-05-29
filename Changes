@@ -2,6 +2,9 @@ Revision history for Task-BeLike-RSRCHBOY
 
 {{$NEXT}}
 
+0.003     2012-05-29 14:51:31 America/Los_Angeles
+- misc version updates; add Software::License::CCpack
+
 0.002     2012-03-30 20:45:53 America/Los_Angeles
 - Split web deps out
 
