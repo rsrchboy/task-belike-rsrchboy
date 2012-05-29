@@ -29,6 +29,8 @@ __END__
 
 =pkg DBIx::Class::Schema::Loader 0.07010
 
+=pkg DBIx::Class::Migration
+
 
 =pkgroup Date/Time handling
 
@@ -56,8 +58,6 @@ __END__
 
 =pkgroup Class bits
 
-=pkg Any::Moose
-
 =pkg Class::Method::Modifiers
 
 =pkg Role::Basic
@@ -71,6 +71,13 @@ __END__
 =pkg MooseX::TrackDirty::Attributes 2.000 native traits support
 
 =pkg MooseX::Types::Perl
+
+
+=pkgroup Testing
+
+=pkg Test::Moose::More 0.009
+
+=pkg Test::Routine 0.015
 
 
 =pkgroup Other Libraries I Use
@@ -88,10 +95,6 @@ __END__
 =pkg File::Slurp 9999.18
 
 =pkg Path::Class
-
-=pkg Readonly
-
-=pkg Readonly::XS
 
 =pkg Smart::Args
 
