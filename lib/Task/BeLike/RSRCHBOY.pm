@@ -8,11 +8,17 @@ __END__
 
 =pkgroup CPAN/GitHub Tools
 
+=pkg local::lib
+
 =pkg App::cpanminus
 
 =pkg App::cpanoutdated
 
 =pkg App::gh
+
+=pkg CPAN::Mini
+
+=pkg CPAN::Mini::Inject
 
 =pkg Dist::Zilla 4
 
