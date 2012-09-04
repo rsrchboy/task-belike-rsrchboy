@@ -112,6 +112,11 @@ __END__
 
 =pkg Try::Tiny
 
+
+=pkgroup Helpers
+
+=pkg Regexp::Debugger
+
 =pkg V
 
 
