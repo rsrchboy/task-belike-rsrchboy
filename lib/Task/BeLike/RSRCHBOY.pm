@@ -86,6 +86,17 @@ __END__
 =pkg Test::Routine 0.015
 
 
+=pkgroup autoboxing
+
+=pkg autobox::Core
+
+=pkg autobox::dump
+
+=pkg autobox::JSON
+
+=pkg Moose::Autobox
+
+
 =pkgroup Other Libraries I Use
 
 =pkg aliased
