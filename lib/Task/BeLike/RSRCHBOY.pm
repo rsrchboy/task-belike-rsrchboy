@@ -105,6 +105,8 @@ __END__
 
 =pkg aliased
 
+=pkg lib::if::dev
+
 =pkg opts 0.05
 
 =pkg Capture::Tiny
