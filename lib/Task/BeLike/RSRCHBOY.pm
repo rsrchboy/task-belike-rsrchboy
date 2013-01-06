@@ -68,11 +68,13 @@ __END__
 
 =pkg Role::Basic
 
-=pkg Reindeer 0.008
+=pkg Reindeer 0.016
 
 =pkg MooseX::App::Cmd
 
 =pkg MooseX::AutoDestruct 0.007
+
+=pkg MooseX::Related::Classes
 
 =pkg MooseX::TrackDirty::Attributes 2.000 native traits support
 
@@ -83,7 +85,7 @@ __END__
 
 =pkg Directory::Scratch
 
-=pkg Test::Moose::More 0.009
+=pkg Test::Moose::More 0.017
 
 =pkg Test::Routine 0.015
 
