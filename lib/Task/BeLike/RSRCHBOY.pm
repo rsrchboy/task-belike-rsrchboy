@@ -81,9 +81,13 @@ __END__
 
 =pkgroup Testing
 
+=pkg Directory::Scratch
+
 =pkg Test::Moose::More 0.009
 
 =pkg Test::Routine 0.015
+
+=pkg Test::TempDir
 
 
 =pkgroup autoboxing
