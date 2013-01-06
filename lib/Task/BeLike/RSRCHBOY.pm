@@ -138,6 +138,7 @@ __END__
 
 =pkg V
 
+=for :stopwords autoboxing
 
 =head1 SEE ALSO
 
