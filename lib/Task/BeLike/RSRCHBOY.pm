@@ -1,4 +1,16 @@
+#
+# This file is part of Task-BeLike-RSRCHBOY
+#
+# This software is Copyright (c) 2011 by Chris Weyl.
+#
+# This is free software, licensed under:
+#
+#   The GNU Lesser General Public License, Version 2.1, February 1999
+#
 package Task::BeLike::RSRCHBOY;
+{
+  $Task::BeLike::RSRCHBOY::VERSION = '0.004';
+}
 
 # ABSTRACT: Modules RSRCHBOY uses!
 
@@ -6,143 +18,162 @@ package Task::BeLike::RSRCHBOY;
 
 __END__
 
-=pkgroup CPAN/GitHub Tools
+=pod
 
-=pkg local::lib
+=head1 NAME
 
-=pkg Pod::Cpandoc
+Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
 
-=pkg App::cpanminus
+=head1 VERSION
 
-=pkg App::cpanoutdated
+version 0.004
 
-=pkg App::gh
+=head1 TASK CONTENTS
 
-=pkg CPAN::Mini
+=head2 CPAN/GitHub Tools
 
-=pkg CPAN::Mini::Inject
+=head3 L<local::lib>
 
-=pkg Dist::Zilla 4
+=head3 L<Pod::Cpandoc>
 
-=pkg Dist::Zilla::PluginBundle::RSRCHBOY
+=head3 L<App::cpanminus>
 
-=pkg Git::CPAN::Patch
+=head3 L<App::cpanoutdated>
 
+=head3 L<App::gh>
 
-=pkgroup DB bits
+=head3 L<CPAN::Mini>
 
-=pkg DBD::SQLite 1.31
+=head3 L<CPAN::Mini::Inject>
 
-=pkg DBIx::Class 0.08192
+=head3 L<Dist::Zilla> 4
 
-=pkg DBIx::Class::Schema::Loader 0.07010
+=head3 L<Dist::Zilla::PluginBundle::RSRCHBOY>
 
-=pkg DBIx::Class::Migration
+=head3 L<Git::CPAN::Patch>
 
+=head2 DB bits
 
-=pkgroup Date/Time handling
+=head3 L<DBD::SQLite> 1.31
 
-=pkg DateTime
+=head3 L<DBIx::Class> 0.08192
 
-=pkg DateTime::Format::DB2
+=head3 L<DBIx::Class::Schema::Loader> 0.07010
 
-=pkg DateTime::Format::DBI
+=head3 L<DBIx::Class::Migration>
 
-=pkg DateTime::Format::MySQL
+=head2 Date/Time handling
 
-=pkg DateTime::Format::Pg
+=head3 L<DateTime>
 
+=head3 L<DateTime::Format::DB2>
 
-=pkgroup Hygiene
+=head3 L<DateTime::Format::DBI>
 
-=pkg common::sense
+=head3 L<DateTime::Format::MySQL>
 
-=pkg namespace::autoclean
+=head3 L<DateTime::Format::Pg>
 
-=pkg Perl::Tidy
+=head2 Hygiene
 
-=pkg Perl::Critic
+=head3 L<common::sense>
 
+=head3 L<namespace::autoclean>
 
-=pkgroup Class bits
+=head3 L<Perl::Tidy>
 
-=pkg Class::Method::Modifiers
+=head3 L<Perl::Critic>
 
-=pkg Role::Basic
+=head2 Class bits
 
-=pkg Reindeer 0.016
+=head3 L<Class::Method::Modifiers>
 
-=pkg MooseX::App::Cmd
+=head3 L<Role::Basic>
 
-=pkg MooseX::AutoDestruct 0.007
+=head3 L<Reindeer> 0.016
 
-=pkg MooseX::RelatedClasses
+=head3 L<MooseX::App::Cmd>
 
-=pkg MooseX::TrackDirty::Attributes 2.000 native traits support
+=head3 L<MooseX::AutoDestruct> 0.007
 
-=pkg MooseX::Types::Perl
+=head3 L<MooseX::RelatedClasses>
 
+=head3 L<MooseX::TrackDirty::Attributes> 2.000
 
-=pkgroup Testing
+Version 2.000 required because: native traits support
 
-=pkg Directory::Scratch
+=head3 L<MooseX::Types::Perl>
 
-=pkg Test::Moose::More 0.017
+=head2 Testing
 
-=pkg Test::Routine 0.015
+=head3 L<Directory::Scratch>
 
-=pkg Test::TempDir
+=head3 L<Test::Moose::More> 0.017
 
+=head3 L<Test::Routine> 0.015
 
-=pkgroup Other Libraries I Use
+=head3 L<Test::TempDir>
 
-=pkg autodie 0.16
+=head2 Other Libraries I Use
 
-=pkg autobox::Core
+=head3 L<autodie> 0.16
 
-=pkg autobox::dump
+=head3 L<autobox::Core>
 
-=pkg autobox::JSON
+=head3 L<autobox::dump>
 
-=pkg Moose::Autobox
+=head3 L<autobox::JSON>
 
-=pkg aliased
+=head3 L<Moose::Autobox>
 
-=pkg lib::if::dev
+=head3 L<aliased>
 
-=pkg opts 0.05
+=head3 L<lib::if::dev>
 
-=pkg Capture::Tiny
+=head3 L<opts> 0.05
 
-=pkg Config::JFDI
+=head3 L<Capture::Tiny>
 
-=pkg File::chdir
+=head3 L<Config::JFDI>
 
-=pkg File::Slurp 9999.18
+=head3 L<File::chdir>
 
-=pkg Path::Class
+=head3 L<File::Slurp> 9999.18
 
-=pkg Smart::Args
+=head3 L<Path::Class>
 
-=pkg Smart::Comments
+=head3 L<Smart::Args>
 
-=pkg Sub::Install
+=head3 L<Smart::Comments>
 
-=pkg Sub::Exporter
+=head3 L<Sub::Install>
 
-=pkg Try::Tiny
+=head3 L<Sub::Exporter>
 
+=head3 L<Try::Tiny>
 
-=pkgroup Helpers
+=head2 Helpers
 
-=pkg Regexp::Debugger
+=head3 L<Regexp::Debugger>
 
-=pkg V
+=head3 L<V>
 
 =for :stopwords autoboxing
 
 =head1 SEE ALSO
 
 L<Task::BeLike::RSRCHBOY::Web>
+
+=head1 AUTHOR
+
+Chris Weyl <cweyl@alumni.drew.edu>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2011 by Chris Weyl.
+
+This is free software, licensed under:
+
+  The GNU Lesser General Public License, Version 2.1, February 1999
 
 =cut

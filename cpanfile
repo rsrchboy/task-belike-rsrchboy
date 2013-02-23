@@ -1,0 +1,75 @@
+requires "App::cpanminus" => "0";
+requires "App::cpanoutdated" => "0";
+requires "App::gh" => "0";
+requires "CPAN::Mini" => "0";
+requires "CPAN::Mini::Inject" => "0";
+requires "Capture::Tiny" => "0";
+requires "Class::Method::Modifiers" => "0";
+requires "Config::JFDI" => "0";
+requires "DBD::SQLite" => "1.31";
+requires "DBIx::Class" => "0.08192";
+requires "DBIx::Class::Migration" => "0";
+requires "DBIx::Class::Schema::Loader" => "0.07010";
+requires "DateTime" => "0";
+requires "DateTime::Format::DB2" => "0";
+requires "DateTime::Format::DBI" => "0";
+requires "DateTime::Format::MySQL" => "0";
+requires "DateTime::Format::Pg" => "0";
+requires "Directory::Scratch" => "0";
+requires "Dist::Zilla" => "4";
+requires "Dist::Zilla::PluginBundle::RSRCHBOY" => "0";
+requires "File::Slurp" => "9999.18";
+requires "File::chdir" => "0";
+requires "Git::CPAN::Patch" => "0";
+requires "Moose::Autobox" => "0";
+requires "MooseX::App::Cmd" => "0";
+requires "MooseX::AutoDestruct" => "0.007";
+requires "MooseX::RelatedClasses" => "0";
+requires "MooseX::TrackDirty::Attributes" => "2.000";
+requires "MooseX::Types::Perl" => "0";
+requires "Path::Class" => "0";
+requires "Perl::Critic" => "0";
+requires "Perl::Tidy" => "0";
+requires "Pod::Cpandoc" => "0";
+requires "Regexp::Debugger" => "0";
+requires "Reindeer" => "0.016";
+requires "Role::Basic" => "0";
+requires "Smart::Args" => "0";
+requires "Smart::Comments" => "0";
+requires "Sub::Exporter" => "0";
+requires "Sub::Install" => "0";
+requires "Test::Moose::More" => "0.017";
+requires "Test::Routine" => "0.015";
+requires "Test::TempDir" => "0";
+requires "Try::Tiny" => "0";
+requires "V" => "0";
+requires "aliased" => "0";
+requires "autobox::Core" => "0";
+requires "autobox::JSON" => "0";
+requires "autobox::dump" => "0";
+requires "autodie" => "0.16";
+requires "common::sense" => "0";
+requires "lib::if::dev" => "0";
+requires "local::lib" => "0";
+requires "namespace::autoclean" => "0";
+requires "opts" => "0.05";
+requires "perl" => "5.006";
+
+on 'test' => sub {
+  requires "File::Find" => "0";
+  requires "File::Temp" => "0";
+  requires "Test::More" => "0.88";
+  requires "strict" => "0";
+  requires "warnings" => "0";
+};
+
+on 'configure' => sub {
+  requires "ExtUtils::MakeMaker" => "6.30";
+};
+
+on 'develop' => sub {
+  requires "Pod::Coverage::TrustPod" => "0";
+  requires "Test::Pod" => "1.41";
+  requires "Test::Pod::Coverage" => "1.08";
+  requires "version" => "0.9901";
+};

@@ -1,0 +1,50 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 7bdc0d7703c73c0bdaebbb7157995ce1efda5f3c Changes
+SHA1 71782757109ef9994ae003d5075182af9c5c0653 INSTALL
+SHA1 514760f01d379ad532c49a196f1c6f7912b65556 LICENSE
+SHA1 60b1c76c32b9d0f01effd46f1d4c9b25c1da1814 MANIFEST
+SHA1 67e0b6ea7b8fdd1c5d13b0b098550a22242e8433 META.json
+SHA1 035f68ce5a22daac702d935f54a80e698b256a4c META.yml
+SHA1 cfc33107d92c34a95355fa0686b1f070f3a1b9f1 Makefile.PL
+SHA1 7e2d61c8c7cab387381ae7ce8a0a8dc5349e7437 README
+SHA1 68bfe33505d4fcc3016ccf620783029395661b5b cpanfile
+SHA1 a5d6932bb88251a9eb4e4814407566eee01f87d7 dist.ini
+SHA1 28fbc73acd03c21a152f8dc04940aeaebabee644 lib/Task/BeLike/RSRCHBOY.pm
+SHA1 865fff273a1a8ecb931c41919fdb9d082430720b t/00-compile.t
+SHA1 02da5d1c7eb99d7899e0e759afae012e051a2270 t/000-report-versions-tiny.t
+SHA1 901ebe8c712798b617f1bb755b9ba3f6259a268f t/author-pod-spell.t
+SHA1 9c3627ff37f4fd5bddc34bf46cf3359eaf76a060 t/release-consistent-version.t
+SHA1 a032c41ef6887fab1b900669c2d304fab46680e2 t/release-eol.t
+SHA1 9a7b147c5367f852c567540160bdbbe07a641c16 t/release-has-version.t
+SHA1 2865e49a5727893586903226809190704ea07928 t/release-no-smart-comments.t
+SHA1 455d1dd1867212a665ad5ea4126b572411de300c t/release-no-tabs.t
+SHA1 bae5f727b6509eaea23537281327e62630c2ee9e t/release-pod-coverage.t
+SHA1 268bd4507e8a94a21c1203c95bb8c7c082bcfe7f t/release-pod-linkcheck.t
+SHA1 f9d398e76d4aa481838553d5d7dd39cf3724e9ff t/release-pod-syntax.t
+SHA1 812c73cc8e8feda102370afec8c62156b7014212 t/task-bogus.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJRKQkRAAoJEOd5N1CvIgQkAtoIALa6ubDHAlZ4uCE/JCHnHFwC
+m1cfa4DW0Y32fmVp3+bzVgS+wKlMaQYSJz3SP27DaAptIBbubODQo1uRXUIdKe5f
+k0k1tfhAE1JRfoDhSx1r3QHkN7vavyBeT6Fu4FccJlirkFHN74fYWF2UuQ9+FRHP
+coFLduJ3AsSOdvDeUkX0l4Gno7cMwo6FpsVFdnvGbP4Engi9hajhxDjlJxYAYrx2
+B+f7shHe0/sLuGqyZtf+J478Xv7ZjVmzyaQsISC82gCkdUijs6lUfhvoRM0BFTwV
+GwzoSQsUWTLesBlNLp53b7TU7/zGtlQOOQBzEui5QPeYjArmFaQIhoIQw5rFKNQ=
+=MKi5
+-----END PGP SIGNATURE-----
