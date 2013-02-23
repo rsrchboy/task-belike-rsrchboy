@@ -10,6 +10,8 @@ __END__
 
 =pkg local::lib
 
+=pkg Pod::Cpandoc
+
 =pkg App::cpanminus
 
 =pkg App::cpanoutdated
@@ -74,7 +76,7 @@ __END__
 
 =pkg MooseX::AutoDestruct 0.007
 
-=pkg MooseX::Related::Classes
+=pkg MooseX::RelatedClasses
 
 =pkg MooseX::TrackDirty::Attributes 2.000 native traits support
 
@@ -92,7 +94,9 @@ __END__
 =pkg Test::TempDir
 
 
-=pkgroup autoboxing
+=pkgroup Other Libraries I Use
+
+=pkg autodie 0.16
 
 =pkg autobox::Core
 
@@ -101,9 +105,6 @@ __END__
 =pkg autobox::JSON
 
 =pkg Moose::Autobox
-
-
-=pkgroup Other Libraries I Use
 
 =pkg aliased
 
