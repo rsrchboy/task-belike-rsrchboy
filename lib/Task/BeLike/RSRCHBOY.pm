@@ -12,8 +12,6 @@ __END__
 
 =pkg Pod::Cpandoc
 
-=pkg App::cpanminus
-
 =pkg App::cpanoutdated
 
 =pkg App::gh
@@ -21,10 +19,6 @@ __END__
 =pkg CPAN::Mini
 
 =pkg CPAN::Mini::Inject
-
-=pkg Dist::Zilla 4
-
-=pkg Dist::Zilla::PluginBundle::RSRCHBOY
 
 =pkg Git::CPAN::Patch
 
@@ -142,6 +136,8 @@ __END__
 =for :stopwords autoboxing
 
 =head1 SEE ALSO
+
+L<Dist::Zilla::PluginBundle::RSRCHBOY>
 
 L<Task::BeLike::RSRCHBOY::Web>
 
