@@ -20,6 +20,8 @@ __END__
 
 =pkg CPAN::Mini::Inject
 
+=pkg Task::CPAN::Reporter
+
 =pkg Git::CPAN::Patch
 
 
