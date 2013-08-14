@@ -16,6 +16,10 @@ branches:
         - "release/cpan"
 
 before_install:
+   # git bits sometimes needed...
+   - git config user.name 'Travis-CI'
+   - git config user.email 'travis@nowhere.dne'
+
    # gotta love failing pod tests blowing everything up...
    - cpanm -q TAP::Harness::Restricted || { cat ~/.cpanm/build.log ; false ; }
    - export HARNESS_SUBCLASS=TAP::Harness::Restricted
@@ -25,6 +29,7 @@ before_install:
    - HARNESS_OPTIONS=j8:c cpanm -q Dist::Zilla || { cat ~/.cpanm/build.log ; false ; }
 
    # for DZP LinkCheck
+   - cpanm --skip-satisfied CPANPLUS
    - cpanm --skip-satisfied -q CPANPLUS || { cat ~/.cpanm/build.log ; false ; }
    - cpanp x
 
