@@ -12,6 +12,8 @@ __END__
 
 =pkg Pod::Cpandoc
 
+=pkg App::cpanminus::reporter
+
 =pkg App::cpanoutdated
 
 =pkg App::cpanminus::reporter
@@ -25,6 +27,8 @@ __END__
 =pkg Task::CPAN::Reporter
 
 =pkg Git::CPAN::Patch
+
+=pkg Pod::Cpandoc
 
 
 =pkgroup DB bits
@@ -59,6 +63,8 @@ __END__
 
 =pkg namespace::autoclean
 
+=pkg strictures
+
 =pkg Perl::Tidy
 
 =pkg Perl::Critic
@@ -67,8 +73,11 @@ __END__
 =pkgroup Class bits
 
 =pkg Class::Method::Modifiers::Fast
+<<<<<<< HEAD
 
 =pkg Class::Method::Modifiers
+=======
+>>>>>>> add/rm a number of packages
 
 =pkg Reindeer 0.016
 
@@ -97,7 +106,7 @@ __END__
 
 =pkg Test::Routine 0.015
 
-=pkg Test::TempDir
+=pkg Test::TempDir::Tiny
 
 
 =pkgroup Other Libraries I Use
@@ -116,9 +125,15 @@ __END__
 
 =pkg lib::if::dev
 
+=pkg autobox::Core
+
+=pkg autobox::JSON
+
 =pkg opts 0.05
 
 =pkg Capture::Tiny
+
+=pkg Carp::Always::Color
 
 =pkg Config::JFDI
 
