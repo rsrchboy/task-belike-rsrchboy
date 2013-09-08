@@ -64,9 +64,9 @@ __END__
 
 =pkgroup Class bits
 
-=pkg Class::Method::Modifiers
+=pkg Class::Method::Modifiers::Fast
 
-=pkg Role::Basic
+=pkg Class::Method::Modifiers
 
 =pkg Reindeer 0.016
 
@@ -84,6 +84,8 @@ __END__
 =pkgroup Testing
 
 =pkg Directory::Scratch
+
+=pkg TAP::Harness::Restricted
 
 =pkg Test::Moose::More 0.017
 
