@@ -141,8 +141,8 @@ __END__
 
 =head1 SEE ALSO
 
-L<Dist::Zilla::PluginBundle::RSRCHBOY>
+Dist::Zilla::PluginBundle::RSRCHBOY
 
-L<Task::BeLike::RSRCHBOY::Web>
+Task::BeLike::RSRCHBOY::Web
 
 =cut
