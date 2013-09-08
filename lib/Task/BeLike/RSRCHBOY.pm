@@ -102,8 +102,6 @@ __END__
 
 =pkg autobox::JSON
 
-=pkg Moose::Autobox
-
 =pkg aliased
 
 =pkg lib::if::dev
