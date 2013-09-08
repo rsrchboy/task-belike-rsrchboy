@@ -1,0 +1,155 @@
+# NAME
+
+Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
+
+# VERSION
+
+version 0.005
+
+# TASK CONTENTS
+
+## CPAN/GitHub Tools
+
+### [local::lib](http://search.cpan.org/perldoc?local::lib)
+
+### [Pod::Cpandoc](http://search.cpan.org/perldoc?Pod::Cpandoc)
+
+### [App::cpanminus](http://search.cpan.org/perldoc?App::cpanminus)
+
+### [App::cpanoutdated](http://search.cpan.org/perldoc?App::cpanoutdated)
+
+### [App::gh](http://search.cpan.org/perldoc?App::gh)
+
+### [CPAN::Mini](http://search.cpan.org/perldoc?CPAN::Mini)
+
+### [CPAN::Mini::Inject](http://search.cpan.org/perldoc?CPAN::Mini::Inject)
+
+### [Dist::Zilla](http://search.cpan.org/perldoc?Dist::Zilla) 4
+
+### [Dist::Zilla::PluginBundle::RSRCHBOY](http://search.cpan.org/perldoc?Dist::Zilla::PluginBundle::RSRCHBOY)
+
+### [Git::CPAN::Patch](http://search.cpan.org/perldoc?Git::CPAN::Patch)
+
+## DB bits
+
+### [App::AltSQL](http://search.cpan.org/perldoc?App::AltSQL)
+
+### [DBD::SQLite](http://search.cpan.org/perldoc?DBD::SQLite) 1.31
+
+### [DBIx::Class](http://search.cpan.org/perldoc?DBIx::Class) 0.08192
+
+### [DBIx::Class::Schema::Loader](http://search.cpan.org/perldoc?DBIx::Class::Schema::Loader) 0.07010
+
+### [DBIx::Class::Migration](http://search.cpan.org/perldoc?DBIx::Class::Migration)
+
+## Date/Time handling
+
+### [DateTime](http://search.cpan.org/perldoc?DateTime)
+
+### [DateTime::Format::DB2](http://search.cpan.org/perldoc?DateTime::Format::DB2)
+
+### [DateTime::Format::DBI](http://search.cpan.org/perldoc?DateTime::Format::DBI)
+
+### [DateTime::Format::MySQL](http://search.cpan.org/perldoc?DateTime::Format::MySQL)
+
+### [DateTime::Format::Pg](http://search.cpan.org/perldoc?DateTime::Format::Pg)
+
+## Hygiene
+
+### [common::sense](http://search.cpan.org/perldoc?common::sense)
+
+### [namespace::autoclean](http://search.cpan.org/perldoc?namespace::autoclean)
+
+### [Perl::Tidy](http://search.cpan.org/perldoc?Perl::Tidy)
+
+### [Perl::Critic](http://search.cpan.org/perldoc?Perl::Critic)
+
+## Class bits
+
+### [Class::Method::Modifiers::Fast](http://search.cpan.org/perldoc?Class::Method::Modifiers::Fast)
+
+### [Class::Method::Modifiers](http://search.cpan.org/perldoc?Class::Method::Modifiers)
+
+### [Reindeer](http://search.cpan.org/perldoc?Reindeer) 0.016
+
+### [MooseX::App::Cmd](http://search.cpan.org/perldoc?MooseX::App::Cmd)
+
+### [MooseX::AutoDestruct](http://search.cpan.org/perldoc?MooseX::AutoDestruct) 0.007
+
+### [MooseX::RelatedClasses](http://search.cpan.org/perldoc?MooseX::RelatedClasses)
+
+### [MooseX::TrackDirty::Attributes](http://search.cpan.org/perldoc?MooseX::TrackDirty::Attributes) 2.000
+
+Version 2.000 required because: native traits support
+
+### [MooseX::Types::Perl](http://search.cpan.org/perldoc?MooseX::Types::Perl)
+
+## Testing
+
+### [Directory::Scratch](http://search.cpan.org/perldoc?Directory::Scratch)
+
+### [TAP::Harness::Restricted](http://search.cpan.org/perldoc?TAP::Harness::Restricted)
+
+### [Test::Moose::More](http://search.cpan.org/perldoc?Test::Moose::More) 0.017
+
+### [Test::Routine](http://search.cpan.org/perldoc?Test::Routine) 0.015
+
+### [Test::TempDir](http://search.cpan.org/perldoc?Test::TempDir)
+
+## Other Libraries I Use
+
+### [autodie](http://search.cpan.org/perldoc?autodie) 0.16
+
+### [autobox::Core](http://search.cpan.org/perldoc?autobox::Core)
+
+### [autobox::dump](http://search.cpan.org/perldoc?autobox::dump)
+
+### [autobox::JSON](http://search.cpan.org/perldoc?autobox::JSON)
+
+### [aliased](http://search.cpan.org/perldoc?aliased)
+
+### [lib::if::dev](http://search.cpan.org/perldoc?lib::if::dev)
+
+### [opts](http://search.cpan.org/perldoc?opts) 0.05
+
+### [Capture::Tiny](http://search.cpan.org/perldoc?Capture::Tiny)
+
+### [Config::JFDI](http://search.cpan.org/perldoc?Config::JFDI)
+
+### [File::chdir](http://search.cpan.org/perldoc?File::chdir)
+
+### [File::Slurp](http://search.cpan.org/perldoc?File::Slurp) 9999.18
+
+### [Path::Class](http://search.cpan.org/perldoc?Path::Class)
+
+### [Smart::Args](http://search.cpan.org/perldoc?Smart::Args)
+
+### [Smart::Comments](http://search.cpan.org/perldoc?Smart::Comments)
+
+### [Sub::Install](http://search.cpan.org/perldoc?Sub::Install)
+
+### [Sub::Exporter](http://search.cpan.org/perldoc?Sub::Exporter)
+
+### [Try::Tiny](http://search.cpan.org/perldoc?Try::Tiny)
+
+## Helpers
+
+### [Regexp::Debugger](http://search.cpan.org/perldoc?Regexp::Debugger)
+
+### [V](http://search.cpan.org/perldoc?V)
+
+# SEE ALSO
+
+Task::BeLike::RSRCHBOY::Web
+
+# AUTHOR
+
+Chris Weyl <cweyl@alumni.drew.edu>
+
+# COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2011 by Chris Weyl.
+
+This is free software, licensed under:
+
+    The GNU Lesser General Public License, Version 2.1, February 1999
