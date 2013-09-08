@@ -27,6 +27,8 @@ __END__
 
 =pkgroup DB bits
 
+=pkg App::AltSQL
+
 =pkg DBD::SQLite 1.31
 
 =pkg DBIx::Class 0.08192
