@@ -120,6 +120,8 @@ __END__
 
 =pkg Config::JFDI
 
+=pkg Carp::Always
+
 =pkg File::chdir
 
 =pkg File::Slurp 9999.18
@@ -142,6 +144,7 @@ __END__
 =pkg Regexp::Debugger
 
 =pkg V
+
 
 =for :stopwords autoboxing
 
