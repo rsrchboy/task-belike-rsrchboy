@@ -80,6 +80,12 @@ __END__
 
 =pkg MooseX::Types::Perl
 
+=pkg Moo
+
+=pkg MooX::Types::MooseLike
+
+=pkg MooX::Cmd
+
 
 =pkgroup Testing
 
