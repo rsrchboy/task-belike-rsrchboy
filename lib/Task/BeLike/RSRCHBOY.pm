@@ -102,13 +102,15 @@ __END__
 
 =pkgroup Other Libraries I Use
 
-=pkg autodie 0.16
+=pkg autodie 2.22
 
 =pkg autobox::Core
 
 =pkg autobox::dump
 
 =pkg autobox::JSON
+
+=pkg autobox::Colors
 
 =pkg aliased
 
