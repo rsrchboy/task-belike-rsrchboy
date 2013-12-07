@@ -1,7 +1,5 @@
 Revision history for Task-BeLike-RSRCHBOY
 
-{{$NEXT}}
-
 0.005     2013-12-06 19:09:34 PST-0800
     * add: App::cpanminus::reporter
     * require autodie >= 2.22; add autobox::Colors
