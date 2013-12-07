@@ -1,6 +1,12 @@
 Revision history for Task-BeLike-RSRCHBOY
 
 {{$NEXT}}
+
+0.005     2013-12-06 19:09:34 PST-0800
+    * add: App::cpanminus::reporter
+    * require autodie >= 2.22; add autobox::Colors
+	* add: Carp::Always
+	* add: Moo, MooX::Types::MooseLike, MooX::Cmd
 	* drop Moose::Autobox, as I'm more an autobox::Core kinda person
 	* add App::AltSQL, as it ROCKS.
 	* add TAP::Harness::Restricted, Class::Method::Modifiers::Fast

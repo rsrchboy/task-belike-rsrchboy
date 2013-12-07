@@ -10,135 +10,141 @@ version 0.005
 
 ## CPAN/GitHub Tools
 
-### [local::lib](http://search.cpan.org/perldoc?local::lib)
+### [local::lib](https://metacpan.org/pod/local::lib)
 
-### [Pod::Cpandoc](http://search.cpan.org/perldoc?Pod::Cpandoc)
+### [Pod::Cpandoc](https://metacpan.org/pod/Pod::Cpandoc)
 
-### [App::cpanminus](http://search.cpan.org/perldoc?App::cpanminus)
+### [App::cpanoutdated](https://metacpan.org/pod/App::cpanoutdated)
 
-### [App::cpanoutdated](http://search.cpan.org/perldoc?App::cpanoutdated)
+### [App::cpanminus::reporter](https://metacpan.org/pod/App::cpanminus::reporter)
 
-### [App::gh](http://search.cpan.org/perldoc?App::gh)
+### [App::gh](https://metacpan.org/pod/App::gh)
 
-### [CPAN::Mini](http://search.cpan.org/perldoc?CPAN::Mini)
+### [CPAN::Mini](https://metacpan.org/pod/CPAN::Mini)
 
-### [CPAN::Mini::Inject](http://search.cpan.org/perldoc?CPAN::Mini::Inject)
+### [CPAN::Mini::Inject](https://metacpan.org/pod/CPAN::Mini::Inject)
 
-### [Dist::Zilla](http://search.cpan.org/perldoc?Dist::Zilla) 4
+### [Task::CPAN::Reporter](https://metacpan.org/pod/Task::CPAN::Reporter)
 
-### [Dist::Zilla::PluginBundle::RSRCHBOY](http://search.cpan.org/perldoc?Dist::Zilla::PluginBundle::RSRCHBOY)
-
-### [Git::CPAN::Patch](http://search.cpan.org/perldoc?Git::CPAN::Patch)
+### [Git::CPAN::Patch](https://metacpan.org/pod/Git::CPAN::Patch)
 
 ## DB bits
 
-### [App::AltSQL](http://search.cpan.org/perldoc?App::AltSQL)
+### [App::AltSQL](https://metacpan.org/pod/App::AltSQL)
 
-### [DBD::SQLite](http://search.cpan.org/perldoc?DBD::SQLite) 1.31
+### [DBD::SQLite](https://metacpan.org/pod/DBD::SQLite) 1.31
 
-### [DBIx::Class](http://search.cpan.org/perldoc?DBIx::Class) 0.08192
+### [DBIx::Class](https://metacpan.org/pod/DBIx::Class) 0.08192
 
-### [DBIx::Class::Schema::Loader](http://search.cpan.org/perldoc?DBIx::Class::Schema::Loader) 0.07010
+### [DBIx::Class::Schema::Loader](https://metacpan.org/pod/DBIx::Class::Schema::Loader) 0.07010
 
-### [DBIx::Class::Migration](http://search.cpan.org/perldoc?DBIx::Class::Migration)
+### [DBIx::Class::Migration](https://metacpan.org/pod/DBIx::Class::Migration)
 
 ## Date/Time handling
 
-### [DateTime](http://search.cpan.org/perldoc?DateTime)
+### [DateTime](https://metacpan.org/pod/DateTime)
 
-### [DateTime::Format::DB2](http://search.cpan.org/perldoc?DateTime::Format::DB2)
+### [DateTime::Format::DB2](https://metacpan.org/pod/DateTime::Format::DB2)
 
-### [DateTime::Format::DBI](http://search.cpan.org/perldoc?DateTime::Format::DBI)
+### [DateTime::Format::DBI](https://metacpan.org/pod/DateTime::Format::DBI)
 
-### [DateTime::Format::MySQL](http://search.cpan.org/perldoc?DateTime::Format::MySQL)
+### [DateTime::Format::MySQL](https://metacpan.org/pod/DateTime::Format::MySQL)
 
-### [DateTime::Format::Pg](http://search.cpan.org/perldoc?DateTime::Format::Pg)
+### [DateTime::Format::Pg](https://metacpan.org/pod/DateTime::Format::Pg)
 
 ## Hygiene
 
-### [common::sense](http://search.cpan.org/perldoc?common::sense)
+### [common::sense](https://metacpan.org/pod/common::sense)
 
-### [namespace::autoclean](http://search.cpan.org/perldoc?namespace::autoclean)
+### [namespace::autoclean](https://metacpan.org/pod/namespace::autoclean)
 
-### [Perl::Tidy](http://search.cpan.org/perldoc?Perl::Tidy)
+### [Perl::Tidy](https://metacpan.org/pod/Perl::Tidy)
 
-### [Perl::Critic](http://search.cpan.org/perldoc?Perl::Critic)
+### [Perl::Critic](https://metacpan.org/pod/Perl::Critic)
 
 ## Class bits
 
-### [Class::Method::Modifiers::Fast](http://search.cpan.org/perldoc?Class::Method::Modifiers::Fast)
+### [Class::Method::Modifiers::Fast](https://metacpan.org/pod/Class::Method::Modifiers::Fast)
 
-### [Class::Method::Modifiers](http://search.cpan.org/perldoc?Class::Method::Modifiers)
+### [Class::Method::Modifiers](https://metacpan.org/pod/Class::Method::Modifiers)
 
-### [Reindeer](http://search.cpan.org/perldoc?Reindeer) 0.016
+### [Reindeer](https://metacpan.org/pod/Reindeer) 0.016
 
-### [MooseX::App::Cmd](http://search.cpan.org/perldoc?MooseX::App::Cmd)
+### [MooseX::App::Cmd](https://metacpan.org/pod/MooseX::App::Cmd)
 
-### [MooseX::AutoDestruct](http://search.cpan.org/perldoc?MooseX::AutoDestruct) 0.007
+### [MooseX::AutoDestruct](https://metacpan.org/pod/MooseX::AutoDestruct) 0.007
 
-### [MooseX::RelatedClasses](http://search.cpan.org/perldoc?MooseX::RelatedClasses)
+### [MooseX::RelatedClasses](https://metacpan.org/pod/MooseX::RelatedClasses)
 
-### [MooseX::TrackDirty::Attributes](http://search.cpan.org/perldoc?MooseX::TrackDirty::Attributes) 2.000
+### [MooseX::Types::Perl](https://metacpan.org/pod/MooseX::Types::Perl)
 
-Version 2.000 required because: native traits support
+### [Moo](https://metacpan.org/pod/Moo)
 
-### [MooseX::Types::Perl](http://search.cpan.org/perldoc?MooseX::Types::Perl)
+### [MooX::Types::MooseLike](https://metacpan.org/pod/MooX::Types::MooseLike)
+
+### [MooX::Cmd](https://metacpan.org/pod/MooX::Cmd)
 
 ## Testing
 
-### [Directory::Scratch](http://search.cpan.org/perldoc?Directory::Scratch)
+### [Directory::Scratch](https://metacpan.org/pod/Directory::Scratch)
 
-### [TAP::Harness::Restricted](http://search.cpan.org/perldoc?TAP::Harness::Restricted)
+### [TAP::Harness::Restricted](https://metacpan.org/pod/TAP::Harness::Restricted)
 
-### [Test::Moose::More](http://search.cpan.org/perldoc?Test::Moose::More) 0.017
+### [Test::Moose::More](https://metacpan.org/pod/Test::Moose::More) 0.017
 
-### [Test::Routine](http://search.cpan.org/perldoc?Test::Routine) 0.015
+### [Test::Routine](https://metacpan.org/pod/Test::Routine) 0.015
 
-### [Test::TempDir](http://search.cpan.org/perldoc?Test::TempDir)
+### [Test::TempDir](https://metacpan.org/pod/Test::TempDir)
 
 ## Other Libraries I Use
 
-### [autodie](http://search.cpan.org/perldoc?autodie) 0.16
+### [autodie](https://metacpan.org/pod/autodie) 2.22
 
-### [autobox::Core](http://search.cpan.org/perldoc?autobox::Core)
+### [autobox::Core](https://metacpan.org/pod/autobox::Core)
 
-### [autobox::dump](http://search.cpan.org/perldoc?autobox::dump)
+### [autobox::dump](https://metacpan.org/pod/autobox::dump)
 
-### [autobox::JSON](http://search.cpan.org/perldoc?autobox::JSON)
+### [autobox::JSON](https://metacpan.org/pod/autobox::JSON)
 
-### [aliased](http://search.cpan.org/perldoc?aliased)
+### [autobox::Colors](https://metacpan.org/pod/autobox::Colors)
 
-### [lib::if::dev](http://search.cpan.org/perldoc?lib::if::dev)
+### [aliased](https://metacpan.org/pod/aliased)
 
-### [opts](http://search.cpan.org/perldoc?opts) 0.05
+### [lib::if::dev](https://metacpan.org/pod/lib::if::dev)
 
-### [Capture::Tiny](http://search.cpan.org/perldoc?Capture::Tiny)
+### [opts](https://metacpan.org/pod/opts) 0.05
 
-### [Config::JFDI](http://search.cpan.org/perldoc?Config::JFDI)
+### [Capture::Tiny](https://metacpan.org/pod/Capture::Tiny)
 
-### [File::chdir](http://search.cpan.org/perldoc?File::chdir)
+### [Config::JFDI](https://metacpan.org/pod/Config::JFDI)
 
-### [File::Slurp](http://search.cpan.org/perldoc?File::Slurp) 9999.18
+### [Carp::Always](https://metacpan.org/pod/Carp::Always)
 
-### [Path::Class](http://search.cpan.org/perldoc?Path::Class)
+### [File::chdir](https://metacpan.org/pod/File::chdir)
 
-### [Smart::Args](http://search.cpan.org/perldoc?Smart::Args)
+### [File::Slurp](https://metacpan.org/pod/File::Slurp) 9999.18
 
-### [Smart::Comments](http://search.cpan.org/perldoc?Smart::Comments)
+### [Path::Class](https://metacpan.org/pod/Path::Class)
 
-### [Sub::Install](http://search.cpan.org/perldoc?Sub::Install)
+### [Smart::Args](https://metacpan.org/pod/Smart::Args)
 
-### [Sub::Exporter](http://search.cpan.org/perldoc?Sub::Exporter)
+### [Smart::Comments](https://metacpan.org/pod/Smart::Comments)
 
-### [Try::Tiny](http://search.cpan.org/perldoc?Try::Tiny)
+### [Sub::Install](https://metacpan.org/pod/Sub::Install)
+
+### [Sub::Exporter](https://metacpan.org/pod/Sub::Exporter)
+
+### [Try::Tiny](https://metacpan.org/pod/Try::Tiny)
 
 ## Helpers
 
-### [Regexp::Debugger](http://search.cpan.org/perldoc?Regexp::Debugger)
+### [Regexp::Debugger](https://metacpan.org/pod/Regexp::Debugger)
 
-### [V](http://search.cpan.org/perldoc?V)
+### [V](https://metacpan.org/pod/V)
 
 # SEE ALSO
+
+Dist::Zilla::PluginBundle::RSRCHBOY
 
 Task::BeLike::RSRCHBOY::Web
 
