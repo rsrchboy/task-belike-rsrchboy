@@ -14,6 +14,8 @@ __END__
 
 =pkg App::cpanoutdated
 
+=pkg App::cpanminus::reporter
+
 =pkg App::gh
 
 =pkg CPAN::Mini
@@ -75,8 +77,6 @@ __END__
 =pkg MooseX::AutoDestruct 0.007
 
 =pkg MooseX::RelatedClasses
-
-=pkg MooseX::TrackDirty::Attributes 2.000 native traits support
 
 =pkg MooseX::Types::Perl
 
