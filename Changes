@@ -1,6 +1,8 @@
 Revision history for Task-BeLike-RSRCHBOY
 
 {{$NEXT}}
+    * add: L
+    * rm:  File::Slurp
 
 0.005     2013-12-06 19:09:34 PST-0800
     * add: App::cpanminus::reporter

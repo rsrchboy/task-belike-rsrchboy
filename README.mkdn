@@ -4,7 +4,7 @@ Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
 
 # VERSION
 
-version 0.005
+version 0.005\_01
 
 # TASK CONTENTS
 
@@ -122,8 +122,6 @@ version 0.005
 
 ### [File::chdir](https://metacpan.org/pod/File::chdir)
 
-### [File::Slurp](https://metacpan.org/pod/File::Slurp) 9999.18
-
 ### [Path::Class](https://metacpan.org/pod/Path::Class)
 
 ### [Smart::Args](https://metacpan.org/pod/Smart::Args)
@@ -139,6 +137,8 @@ version 0.005
 ## Helpers
 
 ### [Regexp::Debugger](https://metacpan.org/pod/Regexp::Debugger)
+
+### [L](https://metacpan.org/pod/L)
 
 ### [V](https://metacpan.org/pod/V)
 
