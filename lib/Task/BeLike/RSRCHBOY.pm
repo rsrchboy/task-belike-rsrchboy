@@ -126,8 +126,6 @@ __END__
 
 =pkg File::chdir
 
-=pkg File::Slurp 9999.18
-
 =pkg Path::Class
 
 =pkg Smart::Args
