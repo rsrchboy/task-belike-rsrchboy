@@ -73,11 +73,8 @@ __END__
 =pkgroup Class bits
 
 =pkg Class::Method::Modifiers::Fast
-<<<<<<< HEAD
 
 =pkg Class::Method::Modifiers
-=======
->>>>>>> add/rm a number of packages
 
 =pkg Reindeer 0.016
 
