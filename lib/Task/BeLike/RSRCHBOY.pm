@@ -160,6 +160,12 @@ __END__
 =pkg V
 
 
+=pkgroup CPAN-ish Development
+
+=pkg Dist::Zilla::App::Command::issues
+
+=pkg Dist::Zilla::PluginBundle::RSRCHBOY
+
 =for :stopwords autoboxing
 
 =head1 SEE ALSO
