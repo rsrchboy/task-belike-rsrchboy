@@ -163,7 +163,13 @@ __END__
 
 =pkg Devel::Confess
 
+=pkg Dist::Zilla::App::Command::cover
+
 =pkg Dist::Zilla::App::Command::issues
+
+=pkg Dist::Zilla::App::Command::gh
+
+=pkg Dist::Zilla::App::Command::dumpwith
 
 =pkg Dist::Zilla::PluginBundle::RSRCHBOY
 
