@@ -167,8 +167,6 @@ __END__
 
 =pkg Dist::Zilla::PluginBundle::RSRCHBOY
 
-=for :stopwords autoboxing
-
 =head1 SEE ALSO
 
 Dist::Zilla::PluginBundle::RSRCHBOY
