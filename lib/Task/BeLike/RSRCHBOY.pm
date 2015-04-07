@@ -104,7 +104,7 @@ __END__
 =pkg Test::TempDir::Tiny
 
 
-=pkgroup Other Libraries I Use
+=pkgroup autobox
 
 =pkg autodie 2.22
 
@@ -116,15 +116,16 @@ __END__
 
 =pkg autobox::Colors
 
+
+=pkgroup Other Libraries I Use
+
 =pkg aliased
 
 =pkg lib::if::dev
 
-=pkg autobox::Core
-
-=pkg autobox::JSON
-
 =pkg opts 0.05
+
+=pkg App::Cmd
 
 =pkg Capture::Tiny
 
