@@ -160,6 +160,8 @@ __END__
 
 =pkgroup CPAN-ish Development
 
+=pkg Devel::Confess
+
 =pkg Dist::Zilla::App::Command::issues
 
 =pkg Dist::Zilla::PluginBundle::RSRCHBOY
