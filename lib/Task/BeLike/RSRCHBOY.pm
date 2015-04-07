@@ -26,8 +26,6 @@ __END__
 
 =pkg Task::CPAN::Reporter
 
-=pkg Git::CPAN::Patch
-
 =pkg Pod::Cpandoc
 
 
