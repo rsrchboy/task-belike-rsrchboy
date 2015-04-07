@@ -1,4 +1,16 @@
+#
+# This file is part of Task-BeLike-RSRCHBOY
+#
+# This software is Copyright (c) 2011 by Chris Weyl.
+#
+# This is free software, licensed under:
+#
+#   The GNU Lesser General Public License, Version 2.1, February 1999
+#
 package Task::BeLike::RSRCHBOY;
+our $AUTHORITY = 'cpan:RSRCHBOY';
+# git description: 0.005-11-ge5ef2c9
+$Task::BeLike::RSRCHBOY::VERSION = '0.006';
 
 # ABSTRACT: Modules RSRCHBOY uses!
 
@@ -6,171 +18,188 @@ package Task::BeLike::RSRCHBOY;
 
 __END__
 
-=pkgroup CPAN/GitHub Tools
+=pod
 
-=pkg local::lib
+=encoding UTF-8
 
-=pkg Pod::Cpandoc
+=head1 NAME
 
-=pkg App::cpanminus::reporter
+Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
 
-=pkg App::cpanoutdated
+=head1 VERSION
 
-=pkg App::cpanminus::reporter
+version 0.006
 
-=pkg App::gh
+=head1 TASK CONTENTS
 
-=pkg CPAN::Mini
+=head2 CPAN/GitHub Tools
 
-=pkg CPAN::Mini::Inject
+=head3 L<local::lib>
 
-=pkg Task::CPAN::Reporter
+=head3 L<Pod::Cpandoc>
 
-=pkg Pod::Cpandoc
+=head3 L<App::cpanminus::reporter>
 
+=head3 L<App::cpanoutdated>
 
-=pkgroup DB bits
+=head3 L<App::cpanminus::reporter>
 
-=pkg App::AltSQL
+=head3 L<App::gh>
 
-=pkg DBD::SQLite 1.31
+=head3 L<CPAN::Mini>
 
-=pkg DBIx::Class 0.08192
+=head3 L<CPAN::Mini::Inject>
 
-=pkg DBIx::Class::Schema::Loader 0.07010
+=head3 L<Task::CPAN::Reporter>
 
-=pkg DBIx::Class::Migration
+=head3 L<Pod::Cpandoc>
 
+=head2 DB bits
 
-=pkgroup Date/Time handling
+=head3 L<App::AltSQL>
 
-=pkg DateTime
+=head3 L<DBD::SQLite> 1.31
 
-=pkg DateTime::Format::DB2
+=head3 L<DBIx::Class> 0.08192
 
-=pkg DateTime::Format::DBI
+=head3 L<DBIx::Class::Schema::Loader> 0.07010
 
-=pkg DateTime::Format::MySQL
+=head3 L<DBIx::Class::Migration>
 
-=pkg DateTime::Format::Pg
+=head2 Date/Time handling
 
+=head3 L<DateTime>
 
-=pkgroup Hygiene
+=head3 L<DateTime::Format::DB2>
 
-=pkg common::sense
+=head3 L<DateTime::Format::DBI>
 
-=pkg namespace::autoclean
+=head3 L<DateTime::Format::MySQL>
 
-=pkg strictures
+=head3 L<DateTime::Format::Pg>
 
-=pkg Perl::Tidy
+=head2 Hygiene
 
-=pkg Perl::Critic
+=head3 L<common::sense>
 
+=head3 L<namespace::autoclean>
 
-=pkgroup Class bits
+=head3 L<strictures>
 
-=pkg Class::Method::Modifiers::Fast
+=head3 L<Perl::Tidy>
 
-=pkg Class::Method::Modifiers
+=head3 L<Perl::Critic>
 
-=pkg Reindeer 0.016
+=head2 Class bits
 
-=pkg MooseX::App::Cmd
+=head3 L<Class::Method::Modifiers::Fast>
 
-=pkg MooseX::AutoDestruct 0.007
+=head3 L<Class::Method::Modifiers>
 
-=pkg MooseX::RelatedClasses
+=head3 L<Reindeer> 0.016
 
-=pkg MooseX::Types::Perl
+=head3 L<MooseX::App::Cmd>
 
-=pkg Moo
+=head3 L<MooseX::AutoDestruct> 0.007
 
-=pkg MooX::Types::MooseLike
+=head3 L<MooseX::RelatedClasses>
 
-=pkg MooX::Cmd
+=head3 L<MooseX::Types::Perl>
 
+=head3 L<Moo>
 
-=pkgroup Testing
+=head3 L<MooX::Types::MooseLike>
 
-=pkg Directory::Scratch
+=head3 L<MooX::Cmd>
 
-=pkg TAP::Harness::Restricted
+=head2 Testing
 
-=pkg Test::Moose::More 0.017
+=head3 L<Directory::Scratch>
 
-=pkg Test::Routine 0.015
+=head3 L<TAP::Harness::Restricted>
 
-=pkg Test::TempDir::Tiny
+=head3 L<Test::Moose::More> 0.017
 
+=head3 L<Test::Routine> 0.015
 
-=pkgroup autobox
+=head3 L<Test::TempDir::Tiny>
 
-=pkg autodie 2.22
+=head2 autobox
 
-=pkg autobox::Core
+=head3 L<autodie> 2.22
 
-=pkg autobox::dump
+=head3 L<autobox::Core>
 
-=pkg autobox::JSON
+=head3 L<autobox::dump>
 
-=pkg autobox::Colors
+=head3 L<autobox::JSON>
 
+=head3 L<autobox::Colors>
 
-=pkgroup Other Libraries I Use
+=head2 Other Libraries I Use
 
-=pkg aliased
+=head3 L<aliased>
 
-=pkg lib::if::dev
+=head3 L<lib::if::dev>
 
-=pkg opts 0.05
+=head3 L<opts> 0.05
 
-=pkg App::Cmd
+=head3 L<App::Cmd>
 
-=pkg Capture::Tiny
+=head3 L<Capture::Tiny>
 
-=pkg Carp::Always::Color
+=head3 L<Carp::Always::Color>
 
-=pkg Config::JFDI
+=head3 L<Config::JFDI>
 
-=pkg Carp::Always
+=head3 L<Carp::Always>
 
-=pkg File::chdir
+=head3 L<File::chdir>
 
-=pkg Path::Class
+=head3 L<Path::Class>
 
-=pkg Smart::Args
+=head3 L<Smart::Args>
 
-=pkg Smart::Comments
+=head3 L<Smart::Comments>
 
-=pkg Sub::Install
+=head3 L<Sub::Install>
 
-=pkg Sub::Exporter
+=head3 L<Sub::Exporter>
 
-=pkg Try::Tiny
+=head3 L<Try::Tiny>
 
+=head2 Helpers
 
-=pkgroup Helpers
+=head3 L<Regexp::Debugger>
 
-=pkg Regexp::Debugger
+=head3 L<L>
 
-=pkg L
+=head3 L<V>
 
-=pkg V
+=head2 CPAN-ish Development
 
+=head3 L<Devel::Confess>
 
-=pkgroup CPAN-ish Development
+=head3 L<Dist::Zilla::App::Command::issues>
 
-=pkg Devel::Confess
-
-=pkg Dist::Zilla::App::Command::issues
-
-=pkg Dist::Zilla::PluginBundle::RSRCHBOY
+=head3 L<Dist::Zilla::PluginBundle::RSRCHBOY>
 
 =head1 SEE ALSO
 
 Dist::Zilla::PluginBundle::RSRCHBOY
 
 Task::BeLike::RSRCHBOY::Web
+
+=head1 AUTHOR
+
+Chris Weyl <cweyl@alumni.drew.edu>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2011 by Chris Weyl.
+
+This is free software, licensed under:
+
+  The GNU Lesser General Public License, Version 2.1, February 1999
 
 =cut

@@ -1,7 +1,5 @@
 Revision history for Task-BeLike-RSRCHBOY
 
-{{$NEXT}}
-
 0.006     2015-04-06 20:44:02 PDT-0700
 	* + App::Cmd
 	* + Devel::Confess
