@@ -10,8 +10,6 @@ __END__
 
 =pkg local::lib
 
-=pkg Pod::Cpandoc
-
 =pkg App::cpanminus::reporter
 
 =pkg App::cpanoutdated
@@ -22,9 +20,11 @@ __END__
 
 =pkg CPAN::Mini::Inject
 
-=pkg Task::CPAN::Reporter
+=pkg OrePAN2
 
 =pkg Pod::Cpandoc
+
+=pkg Task::CPAN::Reporter
 
 
 =pkgroup DB bits
@@ -76,11 +76,21 @@ __END__
 
 =pkg MooseX::App::Cmd
 
+=pkg MooseX::AlwaysCoerce
+
+=pkg MooseX::AttributeShortcuts
+
 =pkg MooseX::AutoDestruct 0.007
 
 =pkg MooseX::RelatedClasses
 
 =pkg MooseX::Types::Perl
+
+=pkg MooseX::Types::LoadableClass
+
+=pkg MooseX::Types::Path::Class
+
+=pkg MooseX::Types::Path::Tiny
 
 =pkg Moo
 
@@ -90,8 +100,6 @@ __END__
 
 
 =pkgroup Testing
-
-=pkg Directory::Scratch
 
 =pkg TAP::Harness::Restricted
 
@@ -127,13 +135,15 @@ __END__
 
 =pkg Capture::Tiny
 
+=pkg Carp::Always
+
 =pkg Carp::Always::Color
 
 =pkg Config::JFDI
 
-=pkg Carp::Always
-
 =pkg File::chdir
+
+=pkg Path::Tiny
 
 =pkg Path::Class
 
@@ -171,9 +181,8 @@ __END__
 
 =pkg Dist::Zilla::PluginBundle::RSRCHBOY
 
-=head1 SEE ALSO
 
-Dist::Zilla::PluginBundle::RSRCHBOY
+=head1 SEE ALSO
 
 Task::BeLike::RSRCHBOY::Web
 
