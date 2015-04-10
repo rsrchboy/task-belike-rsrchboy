@@ -1,7 +1,5 @@
 Revision history for Task-BeLike-RSRCHBOY
 
-{{$NEXT}}
-
 0.007     2015-04-09 20:46:43 PDT-0700
 	* + Dist::Zilla::App::Command::cover
 	* + Dist::Zilla::App::Command::gh
