@@ -20,8 +20,7 @@ branches:
         - "release/cpan"
 
 env:
-    global:
-        - CPANM_OPTS="-q --skip-satisfied --notest"
+    - CPANM_OPTS="-q --skip-satisfied --notest"
 
 before_install:
    # git bits sometimes needed...
