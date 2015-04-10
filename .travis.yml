@@ -33,8 +33,8 @@ before_install:
    - export HARNESS_SUBCLASS=TAP::Harness::Restricted
 
    # Moose installs in parallel quite nicely.
-   - HARNESS_OPTIONS=j8:c cpanm $CPANM_OPTS || { cat ~/.cpanm/build.log ; false ; }
-   - HARNESS_OPTIONS=j8:c cpanm $CPANM_OPTS || { cat ~/.cpanm/build.log ; false ; }
+   - HARNESS_OPTIONS=j8:c cpanm $CPANM_OPTS Moose       || { cat ~/.cpanm/build.log ; false ; }
+   - HARNESS_OPTIONS=j8:c cpanm $CPANM_OPTS Dist::Zilla || { cat ~/.cpanm/build.log ; false ; }
 
    # for DZP LinkCheck
    - cpanm $CPANM_OPTS CPANPLUS || { cat ~/.cpanm/build.log ; false ; }
