@@ -57,7 +57,7 @@ __END__
 
 =pkg common::sense
 
-=pkg namespace::autoclean
+=pkg namespace::autoclean 0.24
 
 =pkg strictures
 
