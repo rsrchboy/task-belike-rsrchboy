@@ -16,8 +16,6 @@ __END__
 
 =pkg App::cpanoutdated
 
-=pkg App::cpanminus::reporter
-
 =pkg App::gh
 
 =pkg CPAN::Mini
