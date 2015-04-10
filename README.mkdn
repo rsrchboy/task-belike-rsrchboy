@@ -4,7 +4,7 @@ Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
 
 # VERSION
 
-version 0.006
+version 0.007
 
 # TASK CONTENTS
 
@@ -12,13 +12,9 @@ version 0.006
 
 ### [local::lib](https://metacpan.org/pod/local::lib)
 
-### [Pod::Cpandoc](https://metacpan.org/pod/Pod::Cpandoc)
-
 ### [App::cpanminus::reporter](https://metacpan.org/pod/App::cpanminus::reporter)
 
 ### [App::cpanoutdated](https://metacpan.org/pod/App::cpanoutdated)
-
-### [App::cpanminus::reporter](https://metacpan.org/pod/App::cpanminus::reporter)
 
 ### [App::gh](https://metacpan.org/pod/App::gh)
 
@@ -26,9 +22,11 @@ version 0.006
 
 ### [CPAN::Mini::Inject](https://metacpan.org/pod/CPAN::Mini::Inject)
 
-### [Task::CPAN::Reporter](https://metacpan.org/pod/Task::CPAN::Reporter)
+### [OrePAN2](https://metacpan.org/pod/OrePAN2)
 
 ### [Pod::Cpandoc](https://metacpan.org/pod/Pod::Cpandoc)
+
+### [Task::CPAN::Reporter](https://metacpan.org/pod/Task::CPAN::Reporter)
 
 ## DB bits
 
@@ -58,7 +56,7 @@ version 0.006
 
 ### [common::sense](https://metacpan.org/pod/common::sense)
 
-### [namespace::autoclean](https://metacpan.org/pod/namespace::autoclean)
+### [namespace::autoclean](https://metacpan.org/pod/namespace::autoclean) 0.24
 
 ### [strictures](https://metacpan.org/pod/strictures)
 
@@ -76,11 +74,21 @@ version 0.006
 
 ### [MooseX::App::Cmd](https://metacpan.org/pod/MooseX::App::Cmd)
 
+### [MooseX::AlwaysCoerce](https://metacpan.org/pod/MooseX::AlwaysCoerce)
+
+### [MooseX::AttributeShortcuts](https://metacpan.org/pod/MooseX::AttributeShortcuts)
+
 ### [MooseX::AutoDestruct](https://metacpan.org/pod/MooseX::AutoDestruct) 0.007
 
 ### [MooseX::RelatedClasses](https://metacpan.org/pod/MooseX::RelatedClasses)
 
 ### [MooseX::Types::Perl](https://metacpan.org/pod/MooseX::Types::Perl)
+
+### [MooseX::Types::LoadableClass](https://metacpan.org/pod/MooseX::Types::LoadableClass)
+
+### [MooseX::Types::Path::Class](https://metacpan.org/pod/MooseX::Types::Path::Class)
+
+### [MooseX::Types::Path::Tiny](https://metacpan.org/pod/MooseX::Types::Path::Tiny)
 
 ### [Moo](https://metacpan.org/pod/Moo)
 
@@ -89,8 +97,6 @@ version 0.006
 ### [MooX::Cmd](https://metacpan.org/pod/MooX::Cmd)
 
 ## Testing
-
-### [Directory::Scratch](https://metacpan.org/pod/Directory::Scratch)
 
 ### [TAP::Harness::Restricted](https://metacpan.org/pod/TAP::Harness::Restricted)
 
@@ -124,13 +130,15 @@ version 0.006
 
 ### [Capture::Tiny](https://metacpan.org/pod/Capture::Tiny)
 
+### [Carp::Always](https://metacpan.org/pod/Carp::Always)
+
 ### [Carp::Always::Color](https://metacpan.org/pod/Carp::Always::Color)
 
 ### [Config::JFDI](https://metacpan.org/pod/Config::JFDI)
 
-### [Carp::Always](https://metacpan.org/pod/Carp::Always)
-
 ### [File::chdir](https://metacpan.org/pod/File::chdir)
+
+### [Path::Tiny](https://metacpan.org/pod/Path::Tiny)
 
 ### [Path::Class](https://metacpan.org/pod/Path::Class)
 
@@ -156,13 +164,17 @@ version 0.006
 
 ### [Devel::Confess](https://metacpan.org/pod/Devel::Confess)
 
+### [Dist::Zilla::App::Command::cover](https://metacpan.org/pod/Dist::Zilla::App::Command::cover)
+
 ### [Dist::Zilla::App::Command::issues](https://metacpan.org/pod/Dist::Zilla::App::Command::issues)
+
+### [Dist::Zilla::App::Command::gh](https://metacpan.org/pod/Dist::Zilla::App::Command::gh)
+
+### [Dist::Zilla::App::Command::dumpwith](https://metacpan.org/pod/Dist::Zilla::App::Command::dumpwith)
 
 ### [Dist::Zilla::PluginBundle::RSRCHBOY](https://metacpan.org/pod/Dist::Zilla::PluginBundle::RSRCHBOY)
 
 # SEE ALSO
-
-Dist::Zilla::PluginBundle::RSRCHBOY
 
 Task::BeLike::RSRCHBOY::Web
 
