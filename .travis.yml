@@ -28,7 +28,7 @@ before_install:
    - git config user.email 'travis@nowhere.dne'
 
    # gotta love failing pod tests blowing everything up...
-   - export CPANM_OPTS="-q --skip-satisfied --notest"
+   - export CPANM_OPTS="-q --skip-satisfied"
    - cpanm $CPANM_OPTS TAP::Harness::Restricted || { cat ~/.cpanm/build.log ; false ; }
    - export HARNESS_SUBCLASS=TAP::Harness::Restricted
 
